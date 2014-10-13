@@ -1,10 +1,10 @@
 # @cjsx React.DOM
-React = require 'react'
 require './hello_world.scss'
 
+React = require 'react'
 
-HelloWorld = React.createClass
-  render: ->
-    <h1>Hello <b>World</b></h1>
+HelloWorld =
+  React.createClass
+    render: -> <h1>Hello <b>World</b></h1>
 
 module.exports = HelloWorld

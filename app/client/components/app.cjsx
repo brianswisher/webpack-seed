@@ -1,12 +1,11 @@
 # @cjsx React.DOM
 require './app.scss'
 
-HelloWorld = require './hello_world/hello_world.cjsx'
-React = require 'react'
+React       = require 'react'
+HelloWorld  = require './hello_world/hello_world.cjsx'
 
 APP =
-React.createClass({
-  render: ->
-    return <HelloWorld/>
-})
+  React.createClass
+    render: -> return <HelloWorld/>
+
 module.exports = APP
