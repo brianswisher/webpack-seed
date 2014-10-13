@@ -1,0 +1,38 @@
+{
+  "name": "webpack-seed",
+  "version": "0.0.0",
+  "description": "webpack w/ hot modules, cjsx, and scss",
+  "main": "main.cjsx",
+  "dependencies": {
+    "cjsx-loader": "^0.3.0",
+    "coffee-loader": "^0.7.2",
+    "coffee-script": "^1.8.0",
+    "css-loader": "^0.9.0",
+    "react": "^0.11.2",
+    "react-hot-loader": "^0.5.0",
+    "sass-loader": "^0.2.0",
+    "style-loader": "^0.8.1",
+    "webpack": "^1.4.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brianswisher/webpack-seed.git"
+  },
+  "keywords": [
+    "webpack",
+    "cjsx",
+    "react",
+    "scss",
+    "coffeescript"
+  ],
+  "author": "Brian Swisher",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brianswisher/webpack-seed/issues"
+  },
+  "homepage": "https://github.com/brianswisher/webpack-seed"
+}
