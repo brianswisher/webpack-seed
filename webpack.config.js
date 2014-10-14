@@ -1,4 +1,5 @@
 var path = require('path');
+var bourbon = require('node-bourbon').includePaths;
 
 module.exports = {
     entry: ['webpack/hot/dev-server', './app/client/main.cjsx'],
@@ -18,7 +19,7 @@ module.exports = {
               loaders: ['react-hot', 'coffee-loader', 'cjsx-loader']},
             { test: /\.coffee$/, loader: 'coffee-loader' },
             { test: /\.css$/, loader: "style!css" },
-            { test: /\.scss$/, loader: "style!css!sass?outputStyle=expanded" }
+            { test: /\.scss$/, loader: "style!css!sass?includePaths[]=" + bourbon}
         ]
     }
 };

@@ -2,10 +2,14 @@
 require './app.scss'
 
 React       = require 'react'
-HelloWorld  = require './hello_world/hello_world.cjsx'
+Template    = require './app-template.cjsx'
+HelloWorld  = require './hello_world/app-helloworld.cjsx'
 
 APP =
   React.createClass
-    render: -> return <HelloWorld/>
+    render: ->
+      <Template>
+        <HelloWorld/>
+      </Template>
 
 module.exports = APP
