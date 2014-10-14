@@ -3,4 +3,5 @@
 React = require 'react'
 APP   = require './components/app'
 
-document.write React.renderComponentToStaticMarkup <APP />
+document.write '<div id="app" />'
+React.renderComponent <APP />, document.getElementById('app')
