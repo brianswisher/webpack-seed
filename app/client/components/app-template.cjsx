@@ -8,7 +8,7 @@ Template =
     render: ->
       <div>
         <Header />
-        {this.props.children}
+        {@props.children}
       </div>
 
 module.exports = Template
